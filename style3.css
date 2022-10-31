@@ -33,7 +33,9 @@
 .content-container:hover .description>p:first-child{
     color: var(--main_color);
 }
-
+.content-container:hover .image-container{
+    transform: translateY(-15px);
+}
 .image-container{
     width: 250px;
     transition: transform 0.25s ease-in-out 0s;
@@ -123,10 +125,7 @@ i:hover{
     padding-top: 15px;
 }
 
-body{
-    width: 74em;
-    margin: 0 auto;
-}
+
 
 .side-bar-2, .side-bar-1{
     width: 10ch;
