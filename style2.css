@@ -1,0 +1,186 @@
+*,::before,::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#first_part{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background: linear-gradient(rgb(152, 125, 238), rgb(255, 249, 205)) 0% 0% / cover repeat;
+}
+#main-image{
+    width:75%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:2rem;
+}
+
+#first_part_logo{
+    width:75%;
+    display:flex;
+    justify-content:space-between;
+    gap:1em;
+    margin:5px;
+    
+}
+.h1_learn-more{
+    display:flex;
+    gap:1rem;
+    justify-content: center;
+}
+
+
+h1,h2{
+    display:block;
+    color:#0d0d0d;
+    font-size:1.5rem;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:0;
+    
+}
+
+button{
+    color:whitesmoke;
+    background-color: red;
+    text-align:center;
+    border:1px solid red;
+    border-radius:0.25rem;
+    font-size:1rem;
+    padding:0.25em;
+    transition: all 0.1ms ease-in-out;
+}
+button:hover{
+    cursor:pointer;
+    transform:scale(1.2);
+    -webkit-transform: scale(1.2);
+    background-color: rgba(187, 3, 3, 0.878);
+}
+
+#e10_cartoon_game{
+    display:flex;
+    justify-content: space-between;
+    align-items: right;
+    gap:1em;
+    
+    
+}
+
+.cartoon-violence{
+    padding: 0px 0px 1em;
+    border-bottom:1px solid rgb(72,72,72);
+    
+}
+.game-purchase{
+    padding:1em 0px 0px;
+    
+}
+.main-head{
+    font-size: 1.2rem;
+    line-height: 1rem;
+    text-align:left;
+    
+}
+#game-cartoon{
+    text-decoration: none;
+}
+
+hr{
+    margin:15px;
+}
+a{
+text-decoration: none;
+}
+a > h3:hover{
+    color:red;
+    cursor:pointer;
+}
+div{
+    display: block;
+}
+#images{
+    
+    display:flex;
+    justify-content: space-between;
+    gap:1rem;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+    object-fit: cover;
+    -webkit-font-smoothing: antialiased;/*it prevends artifacts*/
+    
+  
+}
+.featured_image{
+    display:block;
+    border:5px solid   rgb(244, 236, 236);
+    width:500px;
+    height:auto;
+    text-align:center;
+    font-size:16px;
+    position:relative;
+    object-fit: cover;
+}
+.block_images{
+    width:100%;
+    height:60%;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+.block_images:hover{
+    transform: translate(0,-20px);
+    -webkit-transform: translate(0,-20px);
+}
+h3{
+    padding-left:1em;
+    padding-top:0.5em;
+    text-align: left;
+    color: rgb(72, 72, 72);
+    font-size:1rem;
+    }
+h4{
+ font-size:0.875rem;
+ color: rgb(195, 191, 191);
+}
+#feature_h2{
+padding:1em 0 1.5em 10em;
+}
+.box{
+    border:1px solid red;
+    background-color:red;
+    width:3px;
+    height:20px;
+}
+.box_nintento_switch{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+    gap:0.5em;
+    position:absolute;
+    bottom:0;
+    padding-top:0.5em;
+    padding-left:1em;
+    padding-bottom:0.5em;
+}
+
+#nintento_store{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    width:1200px;
+    margin:auto;
+    padding-top:1em;
+}
+#nintento_store > h2{
+    padding-bottom:1em;
+}
+.shop_game{
+    display:flex;
+    gap:1rem;
+    justify-content: center;
+}

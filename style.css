@@ -1,0 +1,128 @@
+
+
+nav {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section#first-section {
+    display: flex;
+    border-bottom: 2px solid rgb(221, 221, 221);
+}
+section#second-section {
+    display: flex;
+    justify-content: center;
+}
+#search:hover {
+    color: rgb(229, 12, 12);
+    border-bottom: 1px solid rgb(229, 12, 12);
+}
+#support {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+#support > svg {
+    margin-right: 5px;    
+}
+#logo {
+    background-color: rgb(229, 12, 12);
+    padding: 4px 20px;
+    border: none;
+}
+#logo > svg {
+    color: white;
+    margin: 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#search {
+    display: flex;
+    border-bottom: 1px solid black;
+    margin: 8px 20px 6px;
+}
+.svg:hover {
+    color: rgb(229, 12, 12);
+}
+input, select {
+    border: none;
+}
+input {
+    margin-left: 10px;
+    width: 300px;
+    font-size: 8px;
+}
+input::placeholder {
+    font: 14px arial;
+}
+input::placeholder:hover {
+    color: rgb(197, 18, 18);
+}
+
+#search > select {
+    font-size: 15px;
+    margin-left: auto;
+}
+select {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 17px;
+}
+select:hover {
+    color: rgb(229, 12, 12);
+}
+select:active {
+    color: rgb(229, 12, 12);
+}
+option {
+    color: black;
+}
+#second-section > div {
+    margin-right: 20px;
+}
+#second-section {
+    margin: 10px;
+}
+#category {
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+#support > span {
+    display: flex;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#support > span > p {
+    padding-left: 8px;
+}
+#support > span:hover {
+    color: rgb(229, 12, 12);  
+}
+
+@media (max-width: 1023px) {
+    nav {
+        display: inline-flex;
+        background-color: rgb(229, 12, 12);
+        font-size: 0;
+        padding: 5px;
+        }
+   #support {
+        display: none;
+    }
+    #search {
+        display: none;
+    }
+    nav > #second-section {
+        display: none;
+        border: 0;
+    }
+    nav > #first-section {
+        border: 0;
+    }
+  
+}

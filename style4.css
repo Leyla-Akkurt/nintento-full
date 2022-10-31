@@ -1,0 +1,76 @@
+#footerLogo {
+    background-color: rgb(230, 0, 18);
+    color: white;
+    padding: 72px;
+    display: flex;
+    height: 120px;
+}
+#logosright {
+    display: flex;
+    position: absolute;
+    right: 5%;
+}
+#logosleft {
+    display: flex;
+    position: absolute;
+    
+}
+.about h3 {
+    color: rgb(72, 72, 72);
+    font-weight: 700;
+    margin: 0px 0px 1em;
+    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    border-bottom: 0ch;
+}
+.footer {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex: relative;
+    flex-wrap: wrap;
+    padding: 32px;
+    
+}
+.footer div {
+    border-left: 0.05cm dotted grey;
+    padding-left: 2ch;
+}
+.footer a {
+    color: rgb(230, 0, 18);
+    font-weight: 700;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: rgb(172, 0, 13);
+    text-decoration: underline;
+}
+.footer a:active{
+    border: 5px solid rgb(230, 179, 182);
+    border-radius: 25%;
+    padding: 1px;
+}
+
+#bottom {
+    background-color: rgb(72, 72, 72);
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+    display: flex;
+}
+#bottom a {
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+}
+#bottom a:hover {
+    text-decoration: underline;
+}
+#bottom ul {
+    display: block;
+}
+ul > li {
+    list-style: none;
+    margin-bottom: 5px;
+    position: relative;
+    left: -40px;
+}
