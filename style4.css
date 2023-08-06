@@ -1,76 +1,93 @@
 #footerLogo {
-    background-color: rgb(230, 0, 18);
-    color: white;
-    padding: 72px;
-    display: flex;
-    height: 120px;
-}
-#logosright {
-    display: flex;
-    position: absolute;
-    right: 5%;
-}
-#logosleft {
-    display: flex;
-    position: absolute;
-    
-}
-.about h3 {
-    color: rgb(72, 72, 72);
-    font-weight: 700;
-    margin: 0px 0px 1em;
-    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
-    border-bottom: 0ch;
-}
-.footer {
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex: relative;
-    flex-wrap: wrap;
-    padding: 32px;
-    
-}
-.footer div {
-    border-left: 0.05cm dotted grey;
-    padding-left: 2ch;
-}
-.footer a {
-    color: rgb(230, 0, 18);
-    font-weight: 700;
-    text-decoration: none;
-}
-.footer a:hover {
-    color: rgb(172, 0, 13);
-    text-decoration: underline;
-}
-.footer a:active{
-    border: 5px solid rgb(230, 179, 182);
-    border-radius: 25%;
-    padding: 1px;
+  background-color: rgb(230, 0, 18);
+  color: white;
+  padding: 2.25rem 1rem;
+  height: 120px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#bottom {
-    background-color: rgb(72, 72, 72);
-    color: white;
-    font-weight: bold;
-    font-size: 0.8em;
+.logoNew {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+#logosright {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.footer {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.footerLink {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 50%;
+  justify-content: space-between;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-right: 1px dotted gray;
+  padding-left: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.about_none {
+  border-right: 0;
+}
+.about h3 {
+  color: rgb(72, 72, 72);
+  opacity: 0.7;
+  padding: 0;
+  margin: 15px 0px;
+}
+
+.about li {
+  list-style: none;
+}
+.about a {
+  color: rgb(230, 0, 18);
+  line-height: 1.4;
+}
+
+#bottom{
+   background-color:  rgb(36, 36, 36);
+  color:white;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .bottom_section{
+    font-size: 10px;
+    display: flex;;
+    width: 50%;
+    margin:30px;
+    gap:10px;
+    justify-content: space-between;
+ }
+#bottom a{
+    color:white;
+}
+.footer_bottom_links{
     display: flex;
+    justify-content: space-between;
+    gap:10px;
+
 }
-#bottom a {
-    text-decoration: none;
-    color: white;
-    padding-right: 5px;
-}
-#bottom a:hover {
-    text-decoration: underline;
-}
-#bottom ul {
-    display: block;
-}
-ul > li {
-    list-style: none;
-    margin-bottom: 5px;
-    position: relative;
-    left: -40px;
-}
+
+
+
+
